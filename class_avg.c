@@ -1,3 +1,5 @@
+//Calculate and grade the class average.
+
 #include <stdio.h>
 
 int main()

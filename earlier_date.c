@@ -1,3 +1,5 @@
+//Input 2 dates and output the earlier one. If both are the same, output a * next to the date.
+
 #include <stdio.h>
 
 int main()

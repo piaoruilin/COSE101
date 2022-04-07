@@ -1,3 +1,5 @@
+//Change lowercase to uppercase and vice versa. Print none is error is inputed.
+
 #include <stdio.h>
 
 int main()

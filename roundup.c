@@ -1,3 +1,5 @@
+//Round up a 5 digit number to the nearest 100.
+
 #include <stdio.h>
 
 int main()
