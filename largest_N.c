@@ -1,3 +1,5 @@
+//Input N amount of numbers and output the largest and second largest value.
+
 #include <stdio.h>
 
 int main()
@@ -13,7 +15,7 @@ int main()
             fMax = num;
         }
         else if(num<fMax && num>ScMax)
-        ScMax = num;
+            ScMax = num;
     }
 printf("%d",fMax);
 printf("\n%d",ScMax);

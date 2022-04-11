@@ -13,13 +13,15 @@ int main()
     }
 
     if (n>=3 && n<=100)
-        for(i=3; i<=n; i++)
+    {
+       for(i=3; i<=n; i++)
         {
             scanf("%d", &c);
             if(c>big) big=c;
-            if(c>big2 && c<big) big2=c;
-        };
+            else if(c>big2 && c<big) big2=c;
+        }; 
+    };
 
-    printf("%d \n%d", big, c);
+    printf("%d \n%d", big, big2);
     return 0;
 }
