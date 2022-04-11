@@ -4,7 +4,7 @@
 
 int main()
 {
-    int N = 0, fMax, ScMax, num;
+    int N=0, fMax, ScMax, num;
     fMax = ScMax;
     scanf("%d",&N);
     for(int i=1; i<=N; i++){
@@ -14,10 +14,10 @@ int main()
             ScMax = fMax;
             fMax = num;
         }
-        else if(num<fMax && num>ScMax)
-            ScMax = num;
+        else if(num<fMax && num>ScMax) {
+            ScMax=num;
+        };
     }
-printf("%d",fMax);
-printf("\n%d",ScMax);
+printf("%d\n%d",fMax,ScMax);
 return 0;
 }

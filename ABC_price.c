@@ -1,19 +1,22 @@
+//Output the combinations of items bought with N.
+
 #include <stdio.h>
 
 int main()
 {
-    int num, A=900, B=750, C=200;
+    int num,A,B,C,i=0;
     scanf("%d", &num);
     
-    while(num%A!=0) {
-        printf("%d", num);
-        num+=1;
+    for(A=900; A<num; A+=900)
+    for(B=750; B<num; B+=750)
+    for(C=200; C<=num; C+=200) {
+        if(A+B+C==num) {
+            int Anew=A/900, Bnew=B/750, Cnew=C/200;
+            if((Cnew<Anew || Cnew<Bnew) && Bnew%2==0) {
+                printf("%d %d %d\n", Anew, Bnew, Cnew);
+            }
+        }
+        i+=1;
     }
-    
-    //at least one
-    
-    //B is always even
-    
-    //C<A or C<B
     return 0;
 }
