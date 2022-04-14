@@ -14,9 +14,10 @@ int main()
             int Anew=A/900, Bnew=B/750, Cnew=C/200;
             if((Cnew<Anew || Cnew<Bnew) && Bnew%2==0) {
                 printf("%d %d %d\n", Anew, Bnew, Cnew);
+                i+=1;
             }
         }
-        i+=1;
     }
+    if(i==0) printf("none");
     return 0;
 }
