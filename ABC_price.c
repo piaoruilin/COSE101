@@ -1,4 +1,4 @@
-//Output the combinations of items bought with N.
+//Output the combinations of items bought with N according to the conditions.
 
 #include <stdio.h>
 

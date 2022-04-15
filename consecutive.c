@@ -1,4 +1,4 @@
-//Input a N number of characters and integers. Output the longest consecutive characters and integers.
+//Input a N number of characters and integers. Output the longest consecutive characters and integers, according to conditions.
 
 #include <stdio.h>
 

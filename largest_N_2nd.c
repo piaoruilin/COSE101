@@ -1,4 +1,4 @@
-//Input N amount of numbers and output the largest and second largest value.
+//Input N amount of numbers and output the largest and second largest value, according to conditions.
 
 #include<stdio.h>
 

@@ -1,4 +1,4 @@
-//Print the reverse of number inputted.
+//Print the numbers reversed.
 
 #include <stdio.h>
 
