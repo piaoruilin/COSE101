@@ -101,4 +101,26 @@ int main()
     return 0;
 }*/
 
-//Q11 Compare 3 integers and print out S for correct value and position; B for correct value only.
+/*!!![CHECK] Q11 Compare 3 integers and print out S for correct value and position; B for correct value only.
+int main()
+{
+    int arr[3], arr1[3];
+    for(int i=0;i<3;++i){
+        scanf("%d", &arr[i]);
+    }
+    for(int j=0;j<3;++j){
+        scanf("%d", &arr[j]);
+    }
+    int S=0, B=0;
+    for(int k=0; k<2; ++k){
+        if(arr[k]==arr1[k]) S=S+1;
+    }
+    printf("%dS%dB", S,B);
+    return 0;
+}*/
+
+//Q12 Drinks: Americano(500), Cafe Latte(400), Lemon Tea(300). Output number of 500s and 100s for the change.
+int main()
+{
+    
+}
