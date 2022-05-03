@@ -17,7 +17,7 @@ int main()
     }
 }*/
 
-/*[CHECK]!!!Q4 Create a 3 letter hangman game.
+//[CHECK]!!!Q4 Create a 3 letter hangman game.
 int main()  
 {  
     char arr[3];
@@ -33,9 +33,11 @@ int main()
     while(j>0){
         scanf("%c", &input);
         for(int n=0; n<3; n++){
-            if(input==arr[n]) ans[n]=input;
+            if(input==arr[n]) {
+              ans[n]=input;
+              total+=ans[n];
+            }
             printf("%c ", ans[n]);
-            total+=ans[n];
         }
         printf("\n");
         if(sum==total) break;
@@ -44,7 +46,7 @@ int main()
     }
 
     return 0;
-}*/
+}
 
 /*Q15 Print a matrix M x N where user inputs M and N. M>=1, N<=20. Print from 1 from left to right.
 int main()
