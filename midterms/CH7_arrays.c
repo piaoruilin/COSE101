@@ -17,7 +17,7 @@ int main()
     }
 }*/
 
-//[CHECK]!!!Q4 Create a 3 letter hangman game.
+/*[CHECK]!!!Q4 Create a 3 letter hangman game.
 int main()  
 {  
     char arr[3];
@@ -46,7 +46,7 @@ int main()
     }
 
     return 0;
-}
+}*/
 
 /*Q15 Print a matrix M x N where user inputs M and N. M>=1, N<=20. Print from 1 from left to right.
 int main()
