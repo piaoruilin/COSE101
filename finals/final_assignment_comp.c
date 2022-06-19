@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdio.h> //standard input and output
 #include <string.h>
 #include <stdlib.h>
 
-/*Q1 Get user input of different words, then print them in vertical order alphabetically. Next user inputs a word and print the number of times this word was mentioned in the list.
+//Q1 Get user input of different words, then print them in vertical order alphabetically. Next user inputs a word and print the number of times this word was mentioned in the list.
 int main() {
 
 	int count=0;
@@ -63,9 +63,9 @@ int main() {
 	printf("%s", ar[N - 1]);
 	
 	return 0;
-}*/
+}
 
-//Q3 
+//Q3 Restaurant price
 
 typedef struct{
 	int brf;
@@ -105,6 +105,8 @@ int main() {
 
 	return 0;
 }
+
+//Q4 Calculator
 
 int main() {
 
